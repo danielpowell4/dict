@@ -82,4 +82,4 @@ production:
   <<: *default
   database: dict_production
   username: dict
-  password: <%= ENV['DICT_DATABASE_PASSWORD'] %>
+  password: password
