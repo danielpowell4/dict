@@ -18,6 +18,7 @@ ActiveRecord::Schema.define(version: 20170107185723) do
   create_table "words", force: :cascade do |t|
     t.string   "word"
     t.text     "definition"
+    t.text     "sentence"
     t.text     "synonyms"
     t.text     "trick"
     t.datetime "created_at", null: false

@@ -3,6 +3,7 @@ class CreateWords < ActiveRecord::Migration[5.0]
     create_table :words do |t|
       t.string :word
       t.text :definition
+      t.text :sentence
       t.text :synonyms
       t.text :trick
 
