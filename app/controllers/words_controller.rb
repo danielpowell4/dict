@@ -12,6 +12,12 @@ class WordsController < ApplicationController
   def show
   end
 
+  # GET /todays_word.json
+  def todays_word
+    yday = Date.today.yday
+    @todays_word = Word.find yday
+  end
+
   # GET /words/new
   def new
     @word = Word.new
