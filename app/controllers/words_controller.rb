@@ -14,8 +14,8 @@ class WordsController < ApplicationController
 
   # GET /todays_word.json
   def todays_word
-    yday = Date.today.yday
-    @todays_word = Word.find yday
+    max = Word.all.count
+    @todays_word = Word.find (rand * max).ceil
   end
 
   # GET /words/new
