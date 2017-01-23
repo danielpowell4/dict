@@ -1,24 +1,16 @@
-# README
+#Dict
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+**Dict** is a messenger bot powered by facebook's wit.ai.
 
-Things you may want to cover:
+Currently in an initial Beta soft launch, Dict uses natural language processing to power you education of a new word each day.
 
-* Ruby version
+##Powered by Wit.ai
+The real "bot" conversational code isn't here. This repository represents the backbone of a basic scaffolded Rails API, which serves up a basic word, sentence, definition, and trick based upon the day of the year.
 
-* System dependencies
+If you are hungry to build a bot, I encourage you to head over to wit.ai(https://wit.ai) and deploy with their awesome [witty_fiddle](https://wit-ai.github.io/witty-fiddle/).
 
-* Configuration
+## In the wild
 
-* Database creation
+Find us in the messenger app by shooting a message to "Dict"
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+If you are interested in collaborating on a project, contact Dan at dan@gobloom.io
