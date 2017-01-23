@@ -3,5 +3,6 @@ Rails.application.routes.draw do
 
   resources :words
   get 'todays_word', to: 'words#todays_word'
+  get 'privacy-policy', to: 'statics#privacy'
 
 end
