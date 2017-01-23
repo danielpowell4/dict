@@ -1,3 +1,15 @@
-// Place all the styles related to the words controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+@import 'https://fonts.googleapis.com/css?family=Rubik:400,900';
+
+* {
+  font-family: "Rubik"
+}
+
+img {
+  max-width: 200px;
+  border-radius: .85rem;
+}
+
+h1, h2, h3, h4, strong {
+  font-family: "Rubik";
+  font-weight: bolder;
+}
